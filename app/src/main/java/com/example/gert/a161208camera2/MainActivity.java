@@ -22,6 +22,7 @@ import static android.widget.Toast.makeText;
 /**
  * Gert Gous, 8 Des 2016
  * 161208Camera2
+ * A simple program to take a photo, stor the photo, and display on screen.
  * This program explores two issues 1) FileProvider and 2) Basic Camera operation
  * For the FileProvider to work, you need to add the following:
  * 1) XML file with the path names allowed in res>xml>filepaths.xml
@@ -47,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     *
+      * @param view This is random description to test effect
+     */
     public void onClickButton(View view){
     dispatchTakePictureIntent();
     }
